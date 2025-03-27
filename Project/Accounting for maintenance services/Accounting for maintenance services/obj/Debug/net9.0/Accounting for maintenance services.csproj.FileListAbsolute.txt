@@ -1,0 +1,15 @@
+C:\OOP_courseWork\Project\Accounting for maintenance services\Accounting for maintenance services\obj\Debug\net9.0\Accounting for maintenance services.GeneratedMSBuildEditorConfig.editorconfig
+C:\OOP_courseWork\Project\Accounting for maintenance services\Accounting for maintenance services\obj\Debug\net9.0\Accounting for maintenance services.AssemblyInfoInputs.cache
+C:\OOP_courseWork\Project\Accounting for maintenance services\Accounting for maintenance services\obj\Debug\net9.0\Accounting for maintenance services.AssemblyInfo.cs
+C:\OOP_courseWork\Project\Accounting for maintenance services\Accounting for maintenance services\obj\Debug\net9.0\Accounting for maintenance services.csproj.CoreCompileInputs.cache
+C:\OOP_courseWork\Project\Accounting for maintenance services\Accounting for maintenance services\obj\Debug\net9.0\Accounting for maintenance services.sourcelink.json
+C:\OOP_courseWork\Project\Accounting for maintenance services\Accounting for maintenance services\bin\Debug\net9.0\Accounting for maintenance services.exe
+C:\OOP_courseWork\Project\Accounting for maintenance services\Accounting for maintenance services\bin\Debug\net9.0\Accounting for maintenance services.deps.json
+C:\OOP_courseWork\Project\Accounting for maintenance services\Accounting for maintenance services\bin\Debug\net9.0\Accounting for maintenance services.runtimeconfig.json
+C:\OOP_courseWork\Project\Accounting for maintenance services\Accounting for maintenance services\bin\Debug\net9.0\Accounting for maintenance services.dll
+C:\OOP_courseWork\Project\Accounting for maintenance services\Accounting for maintenance services\bin\Debug\net9.0\Accounting for maintenance services.pdb
+C:\OOP_courseWork\Project\Accounting for maintenance services\Accounting for maintenance services\obj\Debug\net9.0\Accounting for maintenance services.dll
+C:\OOP_courseWork\Project\Accounting for maintenance services\Accounting for maintenance services\obj\Debug\net9.0\refint\Accounting for maintenance services.dll
+C:\OOP_courseWork\Project\Accounting for maintenance services\Accounting for maintenance services\obj\Debug\net9.0\Accounting for maintenance services.pdb
+C:\OOP_courseWork\Project\Accounting for maintenance services\Accounting for maintenance services\obj\Debug\net9.0\Accounting for maintenance services.genruntimeconfig.cache
+C:\OOP_courseWork\Project\Accounting for maintenance services\Accounting for maintenance services\obj\Debug\net9.0\ref\Accounting for maintenance services.dll
