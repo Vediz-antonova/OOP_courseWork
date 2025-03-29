@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Accounting for maintenance services")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4c8517a2b148195c6abd7bce4c27fd00f2477bf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed8ab0e2e18f4f12f93a9639681c43120a563cc3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Accounting for maintenance services")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Accounting for maintenance services")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
