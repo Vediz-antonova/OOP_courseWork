@@ -9,4 +9,6 @@ public interface ICarService
     Car GetCarById(int carId);
     List<Car> GetCarsByUserId(int userId);
     List<Car> GetAllCars();
+    
+    void UpdateMileage(int carId, int newMileage);
 }

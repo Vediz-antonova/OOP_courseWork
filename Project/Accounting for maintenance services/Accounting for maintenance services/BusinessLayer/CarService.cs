@@ -1,6 +1,5 @@
 ﻿using Accounting_for_maintenance_services.BusinessLayer.Interfaces;
 using Accounting_for_maintenance_services.DataLayer;
-
 namespace Accounting_for_maintenance_services.BusinessLayer;
 
 public class CarService : ICarService
@@ -55,5 +54,19 @@ public class CarService : ICarService
     public List<Car> GetAllCars()
     {
         return _cars;
+    }
+    
+    public void UpdateMileage(int carId, int newMileage)
+    {
+        var car = GetCarById(carId);
+        if (newMileage > car.Mileage)
+        {
+            car.Mileage = newMileage;
+            Console.WriteLine($"Пробег автомобиля (ID: {carId}) обновлён до {newMileage} км.");
+        }
+        else
+        {
+            Console.WriteLine("Новый пробег меньше или равен текущему — обновление не выполнено.");
+        }
     }
 }

@@ -7,6 +7,11 @@ public class MaintenanceService : IMaintenanceService
     private readonly List<Maintenance> _maintenances = new List<Maintenance>();
     private int _nextMaintenanceId = 1; 
     
+    public event EventHandler<MaintenanceAddedEventArgs> MaintenanceAdded;
+    protected virtual void OnMaintenanceAdded(Maintenance maintenance)
+    {
+        MaintenanceAdded?.Invoke(this, new MaintenanceAddedEventArgs(maintenance));
+    }
     public Maintenance AddMaintenance(Maintenance maintenance)
     {
         if (maintenance.Date == default)
@@ -19,6 +24,8 @@ public class MaintenanceService : IMaintenanceService
         maintenance.Id = _nextMaintenanceId++;
         _maintenances.Add(maintenance);
         Console.WriteLine("Запись обслуживания добавлена.");
+        
+        OnMaintenanceAdded(maintenance);
         return maintenance;
     }
     public void UpdateMaintenance(int id, Maintenance updatedMaintenance)
@@ -35,6 +42,7 @@ public class MaintenanceService : IMaintenanceService
         maintenance.Note = updatedMaintenance.Note;
 
         Console.WriteLine("Запись обслуживания обновлена.");
+        OnMaintenanceAdded(maintenance);
     }
     public void DeleteMaintenance(int id)
     {
