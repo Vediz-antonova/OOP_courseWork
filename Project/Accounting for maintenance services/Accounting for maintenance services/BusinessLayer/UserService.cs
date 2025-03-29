@@ -52,7 +52,6 @@ public class UserService: IUserService
         return _users.FirstOrDefault(u => u.Email == email)
                ?? throw new Exception("Пользователь не найден.");
     }
-
     public List<User> GetAllUsers()
     {
         return _users;
